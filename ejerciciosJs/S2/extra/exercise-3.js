@@ -31,6 +31,7 @@ const users = [
 
 var result = []
 
+
 for (let value1 of users){
     for(let value2 in value1.favoritesSounds ){
         if ( result.includes(value2) == false){
@@ -39,7 +40,7 @@ for (let value1 of users){
         else {
             for (let i = 0; i < result.length; i++){
                 if ( result[i] == value2){
-                    
+                    console.log(result[1])
                 }
             }
         }
