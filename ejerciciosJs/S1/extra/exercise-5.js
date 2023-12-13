@@ -4,15 +4,10 @@ var temp = 0;
 var media = 0;
 
 for(let i = 0; i < products.length; i++){
-
-    
-    if ( i == products.length ){
+     if ( i == products.length ){
         temp = temp / i;
     }
     temp = temp + products[i].sellCount;
     media = i + 1;
 }
-
-
-
 console.log(temp/media);

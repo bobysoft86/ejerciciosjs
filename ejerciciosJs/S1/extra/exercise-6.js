@@ -6,8 +6,6 @@ const products = [
   { name: "Reloj de papel albal", sellCount: 23 },
   { name: "Inpar de zapatos", sellCount: 6 },
 ];
-let z = 0;
-let y = 0;
 
 for (let i = 0; i < products.length; i++) {
   if (products[i].sellCount > 20) {
