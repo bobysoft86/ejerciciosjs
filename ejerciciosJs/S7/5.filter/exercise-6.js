@@ -5,13 +5,11 @@ const streamers = [
   { name: "AuronPlay", age: 33, gameMorePlayed: "Among Us" },
 ];
 
-const result = streamers.filter((x) => x.gameMorePlayed == "League of Legends");
-
-const result2 = result.filter((x) => {
+const result = streamers.filter((x) => x.gameMorePlayed == "League of Legends").filter((x) => {
   if (x.age > 35) {
     x.gameMorePlayed = x.gameMorePlayed.toLocaleUpperCase();
   }
   return x;
 });
 
-console.log(result2);
+console.log(result);

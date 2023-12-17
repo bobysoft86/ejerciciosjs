@@ -10,7 +10,6 @@ const countries = [
   
   for (const valor of countries) {
 
-    let i = 0;
       let myDiv = document.createElement("div");
       document.body.appendChild(myDiv);
       let myText = document.createElement("h4");
@@ -22,9 +21,9 @@ const countries = [
       
     let btn1 = document.createElement('button');
     myDiv.appendChild(btn1);
-    btn1.innerText = "borrar imagen 1";
+    btn1.innerText = "borrar imagen";
     btn1.setAttribute("id", "btn1");
-    btn1.addEventListener('click', () => destruirUltimo(i++));
+    btn1.addEventListener('click', () => destruirUltimo(myDiv));
 
     }
     
@@ -32,22 +31,14 @@ const countries = [
     const destruirUltimo = (ultimo) => {
         let bloquesdiv = document.querySelectorAll("div");
        // let ultimo = bloquesdiv.length;
-        bloquesdiv[ultimo - 1].remove();
-        console.log(bloquesdiv.length);
+       ultimo.remove()
+       console.log(ultimo); 
+       // bloquesdiv[ultimo - 1].remove();
+        // console.log(bloquesdiv.length);
     };
 
    
-    let btn1 = document.createElement('button');
-    document.body.appendChild(btn1);
-    btn1.innerText = "borrar imagen 1";
-    btn1.setAttribute("id", "btn1");
-    btn1.addEventListener('click', () => destruirUltimo(1));
-
-        
-    let btn2 = document.createElement('button');
-    document.body.appendChild(btn2);
-    btn2.innerText = "borrar imagen 2";
-    btn2.addEventListener('click', () => destruirUltimo(2));
+ 
     
     // let buttonDestroy = document.querySelector("button");
     
