@@ -10,3 +10,29 @@
     border-radius: 10px;
     background-color: aquamarine;
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    img{
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 15px;
+        
+        img{
+            width: 150px;
+        }
+    }
+}
