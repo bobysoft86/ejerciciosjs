@@ -15,9 +15,15 @@
     height: 618px;
 }
 
+
 .b-mole {
     background-image: url('public/exercise-2/mole.png');
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+}
+.diggletimg{
+    width: 200px;
+
+
 }
