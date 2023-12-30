@@ -16,22 +16,18 @@ const moveDigglet = () => {
   posiciones[numero].appendChild(diggletimg);
 };
 
-
 const crono = () => {
-    tiempo = tiempoDiv.innerText -1;
-    tiempoDiv.innerText = tiempo;
-    console.log(tiempo)
-    if (tiempo == 0 ){
-        
+  tiempo = tiempoDiv.innerText - 1;
+  tiempoDiv.innerText = tiempo;
+  console.log(tiempo);
+  if (tiempo == 0) {
     tiempoDiv.innerText = 30;
-        
-        alert(puntuaciondiv.innerText)
 
-    }
-
+    alert(puntuaciondiv.innerText);
+  }
 };
 
-  setInterval(moveDigglet, 500);
-  setInterval(crono, 1000)
+setInterval(moveDigglet, 700);
+setInterval(crono, 1000);
 
 console.log(tiempoDiv.innerText);

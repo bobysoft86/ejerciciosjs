@@ -116,8 +116,6 @@ let eventocarta = (cardName) => {
     intentos.textContent = ++attemps
     resetCache();
   } else if (click1.name == click2.name) {
-
-   
     let validar = document.querySelectorAll(`.${click1.name}`);
     checkcarta(validar);
 
