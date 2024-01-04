@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+
+      "difficulty": "easy",
+
+      "category": "Entertainment: Music",
+
+      "question": "Which of these are NOT a Men at Work song?",
+
+      "correct_answer": "Basket Case"
+    },
+    {
+      "type": "multiple",
+
+      "difficulty": "easy",
+
+      "category": "Entertainment: Music",
+
+      "question": "Which of these are NOT a Men at Work song?",
+
+      "correct_answer": "Basket Case"
+    },
+    {
+      "type": "multiple",
+
+      "difficulty": "easy",
+
+      "category": "Entertainment: Music",
+
+      "question": "Which of these are NOT a Men at Work song?",
+
+      "correct_answer": "Basket Case"
+    }
+  ]
+}
